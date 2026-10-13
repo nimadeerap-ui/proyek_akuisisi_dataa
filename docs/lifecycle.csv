@@ -1,0 +1,7 @@
+Tahap,Aktivitas Utama,Contoh Tools,Risiko Jika Diabaikan
+Acquisition,"Mengumpulkan data dari berbagai sumber (API, Web, Database, Sensor).","BeautifulSoup, Requests, Scrapy",Tidak ada data yang bisa diolah untuk proses bisnis.
+Storage,Menyimpan data mentah secara aman dan terstruktur di cloud atau lokal.,"PostgreSQL, AWS S3, Google Cloud Storage","Data hilang, tidak teratur, atau aksesnya tidak aman."
+Cleaning,"Mendeteksi dan memperbaiki data yang rusak, duplikat, atau hilang (missing values).","Pandas, OpenRefine, Trifacta",Analisis menjadi salah atau menyesatkan karena datanya kotor.
+Transformation,"Mengubah format data, melakukan normalisasi, atau menggabungkan dataset.","Pandas, Apache Spark, dbt (data build tool)",Data sulit dibaca oleh sistem atau tidak siap dipakai untuk pemodelan.
+Analysis,"Mengeksplorasi data (EDA), membuat model statistik, atau machine learning.","Jupyter Notebook, Scikit-Learn, Tableau",Gagal mendapatkan insight atau pola penting dari data.
+Delivery,"Menyajikan hasil analisis dalam bentuk dashboard, laporan, atau API produk.","PowerBI, Streamlit, Flask/FastAPI",Pengguna atau pengambil keputusan tidak paham hasil akhir analisis.
